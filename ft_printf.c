@@ -57,6 +57,7 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (len);
 }
+
 /*int main()
 {
 	printf("-> %d\n",ft_printf("%%%%"));
